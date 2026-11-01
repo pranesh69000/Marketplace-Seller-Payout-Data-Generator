@@ -137,7 +137,7 @@ A small example is committed in `sample_output/starter/`. It was produced with:
 python run.py generate --seed 20261022 --scale 0.01 --out sample_output/starter
 ```
 
-The full dataset is not committed. Regenerate it with the full command below.
+The full dataset is not committed.Please regenerate it with the full command below.
 ```
 python run.py generate --seed 20261022 --scale 1.0 --out output/full
 python run.py validate --data output/full/injected
