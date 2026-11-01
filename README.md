@@ -103,7 +103,7 @@ python run.py reproduce --seed 20261022 --scale 0.01
 
 This runs the pipeline twice in temporary folders and compares SHA-256 hashes of every file. Expected last line: `SUCCESS: Both independent runs produced 100% bitwise identical files!`. It overwrites `docs/reproducibility.md` with the new run's report.
 
-### 8. Optional: generate the full dataset (scale 1.0)
+### 8. Generate the full dataset (scale 1.0)
 
 ```
 python run.py generate --seed 20261022 --scale 1.0 --out output/full
@@ -137,7 +137,12 @@ A small example is committed in `sample_output/starter/`. It was produced with:
 python run.py generate --seed 20261022 --scale 0.01 --out sample_output/starter
 ```
 
-The full dataset is not committed. Regenerate it with the full command above.
+The full dataset is not committed. Regenerate it with the full command below.
+```
+python run.py generate --seed 20261022 --scale 1.0 --out output/full
+python run.py validate --data output/full/injected
+```
+
 
 ## Measured results
 
