@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "seed": 20261022,
+    "scale": 0.01,
+    "generated_at": "2026-10-31T00:00:00",
+    "python_version": "3.14.3"
+  },
+  "distributions": {
+    "total_sellers": 20,
+    "total_orders": 1000,
+    "total_order_lines": 2076,
+    "late_shipment_rate_pct": 12.27,
+    "cancellation_rate_pct": 1.45,
+    "return_rate_pct": 6.24,
+    "total_disputes": 93,
+    "average_customer_rating": 3.99,
+    "suspended_sellers_count": 3,
+    "total_payouts_settled": 510
+  },
+  "structural_validation": {
+    "status": "PASSED",
+    "total_check_categories": 19,
+    "error_count": 0
+  },
+  "detector_evaluation": {
+    "overall_precision": 1.0,
+    "overall_recall": 1.0,
+    "overall_f1": 1.0,
+    "metrics_by_type": {
+      "COMMISSION_APPLIED_TWICE": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "DISPUTE_NOT_DEDUCTED": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "PAYOUT_BEFORE_HOLD_RELEASE": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "PAYOUT_TOTAL_MISMATCH": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "SUSPENDED_SELLER_LISTING": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "boundary_case_coverage": {
+    "payout_exactly_on_day_14": 249,
+    "orders_on_rate_change_date_2026_07_01": 4,
+    "disputes_opened_on_day_30": 1,
+    "cancellations_count": 30,
+    "delivery_failures_count": 27,
+    "rolled_forward_negative_cycles": 1
+  },
+  "anomalies_summary": {
+    "injected_counts": {
+      "PAYOUT_BEFORE_HOLD_RELEASE": 3,
+      "COMMISSION_APPLIED_TWICE": 3,
+      "SUSPENDED_SELLER_LISTING": 3,
+      "DISPUTE_NOT_DEDUCTED": 3,
+      "PAYOUT_TOTAL_MISMATCH": 3
+    },
+    "shortfalls": {
+      "PAYOUT_BEFORE_HOLD_RELEASE": 0,
+      "COMMISSION_APPLIED_TWICE": 0,
+      "SUSPENDED_SELLER_LISTING": 0,
+      "DISPUTE_NOT_DEDUCTED": 0,
+      "PAYOUT_TOTAL_MISMATCH": 0
+    }
+  }
+}

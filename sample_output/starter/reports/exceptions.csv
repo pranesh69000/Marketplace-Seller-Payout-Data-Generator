@@ -1,0 +1,16 @@
+rule_name,entity_type,entity_id,description,suggested_action
+PAYOUT_BEFORE_HOLD_RELEASE,PayoutLine,PLINE-2026-000873,Payout cycle 2026-03-23 occurred before 14-day hold 2026-03-30,Claw back premature disbursement and withhold until hold window expires.
+PAYOUT_BEFORE_HOLD_RELEASE,PayoutLine,PLINE-2026-001096,Payout cycle 2026-04-13 occurred before 14-day hold 2026-04-15,Claw back premature disbursement and withhold until hold window expires.
+PAYOUT_BEFORE_HOLD_RELEASE,PayoutLine,PLINE-2026-001402,Payout cycle 2026-05-04 occurred before 14-day hold 2026-05-07,Claw back premature disbursement and withhold until hold window expires.
+COMMISSION_APPLIED_TWICE,PayoutLine,PLINE-2026-004014,Duplicate commission deduction for line ORD-2026-000440-03 in payout PAYOUT-2026-000196,Credit duplicate commission deduction back to seller ledger.
+COMMISSION_APPLIED_TWICE,PayoutLine,PLINE-2026-004015,Duplicate commission deduction for line ORD-2026-000731-01 in payout PAYOUT-2026-000370,Credit duplicate commission deduction back to seller ledger.
+COMMISSION_APPLIED_TWICE,PayoutLine,PLINE-2026-004016,Duplicate commission deduction for line ORD-2026-000900-02 in payout PAYOUT-2026-000474,Credit duplicate commission deduction back to seller ledger.
+SUSPENDED_SELLER_LISTING,ProductListing,LIST-SELL-000004-000013,Listing created at 2026-09-08 10:00:00 while seller SELL-000004 was suspended,Deactivate unapproved listing and review seller access permissions.
+SUSPENDED_SELLER_LISTING,ProductListing,LIST-SELL-000007-000007,Listing created at 2026-08-12 10:00:00 while seller SELL-000007 was suspended,Deactivate unapproved listing and review seller access permissions.
+SUSPENDED_SELLER_LISTING,ProductListing,LIST-SELL-000008-000006,Listing created at 2026-07-01 10:00:00 while seller SELL-000008 was suspended,Deactivate unapproved listing and review seller access permissions.
+DISPUTE_NOT_DEDUCTED,Dispute,DSP-2026-000033,Buyer won dispute DSP-2026-000033 but deduction was omitted from payouts,Post manual debit entry to claw back lost dispute from next payout cycle.
+DISPUTE_NOT_DEDUCTED,Dispute,DSP-2026-000063,Buyer won dispute DSP-2026-000063 but deduction was omitted from payouts,Post manual debit entry to claw back lost dispute from next payout cycle.
+DISPUTE_NOT_DEDUCTED,Dispute,DSP-2026-000069,Buyer won dispute DSP-2026-000069 but deduction was omitted from payouts,Post manual debit entry to claw back lost dispute from next payout cycle.
+PAYOUT_TOTAL_MISMATCH,Payout,PAYOUT-2026-000010,Payout total_cents (11825) does not match sum of lines (11826),Recompute and reissue corrected payout header matching child ledger items.
+PAYOUT_TOTAL_MISMATCH,Payout,PAYOUT-2026-000210,Payout total_cents (33053) does not match sum of lines (33052),Recompute and reissue corrected payout header matching child ledger items.
+PAYOUT_TOTAL_MISMATCH,Payout,PAYOUT-2026-000341,Payout total_cents (9960) does not match sum of lines (9910),Recompute and reissue corrected payout header matching child ledger items.

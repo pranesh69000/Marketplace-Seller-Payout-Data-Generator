@@ -1,0 +1,21 @@
+seller_id,business_name,contact_email,onboarded_at,status,status_updated_at,country
+SELL-000001,Falcon Brands 0001,contact@falconbrands-0001.example.com,2026-09-21T17:02:57,ACTIVE,2026-09-21T17:02:57,US
+SELL-000002,Matrix Depot 0002,contact@matrixdepot-0002.example.com,2025-06-05T08:36:18,WATCHLIST,2025-06-05T08:36:18,US
+SELL-000003,Ironclad Goods 0003,contact@ironcladgoods-0003.example.com,2026-01-01T03:04:00,ACTIVE,2026-01-01T03:04:00,US
+SELL-000004,Cobalt Hub 0004,contact@cobalthub-0004.example.com,2026-07-28T10:01:43,WATCHLIST,2026-07-28T10:01:43,US
+SELL-000005,Granite Logistics 0005,contact@granitelogistics-0005.example.com,2025-08-01T17:27:11,ACTIVE,2025-08-01T17:27:11,US
+SELL-000006,Echo Brands 0006,contact@echobrands-0006.example.com,2026-06-10T16:46:56,ACTIVE,2026-06-10T16:46:56,US
+SELL-000007,Echo Enterprises 0007,contact@echoenterprises-0007.example.com,2026-06-01T06:23:01,WATCHLIST,2026-06-01T06:23:01,US
+SELL-000008,Cascade Goods 0008,contact@cascadegoods-0008.example.com,2026-03-20T09:41:16,ACTIVE,2026-03-20T09:41:16,US
+SELL-000009,Granite Brands 0009,contact@granitebrands-0009.example.com,2026-06-30T15:51:47,ACTIVE,2026-06-30T15:51:47,US
+SELL-000010,Liberty Retail 0010,contact@libertyretail-0010.example.com,2025-10-30T01:38:34,WATCHLIST,2025-10-30T01:38:34,US
+SELL-000011,Pinnacle Trading 0011,contact@pinnacletrading-0011.example.com,2025-12-06T21:34:22,ACTIVE,2025-12-06T21:34:22,US
+SELL-000012,Falcon Brands 0012,contact@falconbrands-0012.example.com,2026-04-28T17:17:52,ACTIVE,2026-04-28T17:17:52,US
+SELL-000013,Horizon Outdoors 0013,contact@horizonoutdoors-0013.example.com,2025-09-30T19:23:21,WATCHLIST,2025-09-30T19:23:21,US
+SELL-000014,Apex Goods 0014,contact@apexgoods-0014.example.com,2025-09-07T08:34:15,SUSPENDED,2025-09-07T08:34:15,US
+SELL-000015,BlueSky Outdoors 0015,contact@blueskyoutdoors-0015.example.com,2025-12-05T08:08:25,SUSPENDED,2025-12-05T08:08:25,US
+SELL-000016,Beacon Essentials 0016,contact@beaconessentials-0016.example.com,2026-01-02T09:23:23,WATCHLIST,2026-01-02T09:23:23,US
+SELL-000017,Falcon Supply 0017,contact@falconsupply-0017.example.com,2025-11-15T09:45:01,ACTIVE,2025-11-15T09:45:01,US
+SELL-000018,Aurora Exchange 0018,contact@auroraexchange-0018.example.com,2026-05-11T13:09:31,SUSPENDED,2026-05-11T13:09:31,US
+SELL-000019,Crest Direct 0019,contact@crestdirect-0019.example.com,2026-02-05T17:31:11,ACTIVE,2026-02-05T17:31:11,US
+SELL-000020,Cobalt Exchange 0020,contact@cobaltexchange-0020.example.com,2026-04-24T23:27:57,ACTIVE,2026-04-24T23:27:57,US

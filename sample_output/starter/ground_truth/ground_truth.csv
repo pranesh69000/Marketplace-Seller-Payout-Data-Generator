@@ -1,0 +1,16 @@
+anomaly_id,issue_type,entity_type,entity_id,related_ids,expected_value,observed_value,description
+GT-000001,PAYOUT_BEFORE_HOLD_RELEASE,PayoutLine,PLINE-2026-000873,"ORD-2026-000219-02,PAYOUT-2026-000078",cycle_date>=2026-03-30,cycle_date=2026-03-23,Sale was paid out before the 14-day post-delivery hold release window.
+GT-000002,PAYOUT_BEFORE_HOLD_RELEASE,PayoutLine,PLINE-2026-001096,"ORD-2026-000264-01,PAYOUT-2026-000114",cycle_date>=2026-04-15,cycle_date=2026-04-13,Sale was paid out before the 14-day post-delivery hold release window.
+GT-000003,PAYOUT_BEFORE_HOLD_RELEASE,PayoutLine,PLINE-2026-001402,"ORD-2026-000353-03,PAYOUT-2026-000139",cycle_date>=2026-05-07,cycle_date=2026-05-04,Sale was paid out before the 14-day post-delivery hold release window.
+GT-000004,COMMISSION_APPLIED_TWICE,PayoutLine,PLINE-2026-004014,"ORD-2026-000440-03,PAYOUT-2026-000196",SINGLE_COMMISSION_ENTRY,DUPLICATE_COMMISSION_ENTRY,Commission deduction was applied twice for the same order line in a single payout.
+GT-000005,COMMISSION_APPLIED_TWICE,PayoutLine,PLINE-2026-004015,"ORD-2026-000731-01,PAYOUT-2026-000370",SINGLE_COMMISSION_ENTRY,DUPLICATE_COMMISSION_ENTRY,Commission deduction was applied twice for the same order line in a single payout.
+GT-000006,COMMISSION_APPLIED_TWICE,PayoutLine,PLINE-2026-004016,"ORD-2026-000900-02,PAYOUT-2026-000474",SINGLE_COMMISSION_ENTRY,DUPLICATE_COMMISSION_ENTRY,Commission deduction was applied twice for the same order line in a single payout.
+GT-000007,SUSPENDED_SELLER_LISTING,ProductListing,LIST-SELL-000004-000013,SELL-000004,NO_LISTING_DURING_SUSPENSION,created_at=2026-09-08T10:00:00,Product listing was added while the seller was in SUSPENDED status.
+GT-000008,SUSPENDED_SELLER_LISTING,ProductListing,LIST-SELL-000007-000007,SELL-000007,NO_LISTING_DURING_SUSPENSION,created_at=2026-08-12T10:00:00,Product listing was added while the seller was in SUSPENDED status.
+GT-000009,SUSPENDED_SELLER_LISTING,ProductListing,LIST-SELL-000008-000006,SELL-000008,NO_LISTING_DURING_SUSPENSION,created_at=2026-07-01T10:00:00,Product listing was added while the seller was in SUSPENDED status.
+GT-000010,DISPUTE_NOT_DEDUCTED,Dispute,DSP-2026-000069,"PAYOUT-2026-000475,SELL-000018",DISPUTE_DEDUCTED,DISPUTE_DEDUCTION_OMITTED,"Buyer won dispute, but dispute deduction was not clawed back in payout."
+GT-000011,DISPUTE_NOT_DEDUCTED,Dispute,DSP-2026-000063,"PAYOUT-2026-000390,SELL-000019",DISPUTE_DEDUCTED,DISPUTE_DEDUCTION_OMITTED,"Buyer won dispute, but dispute deduction was not clawed back in payout."
+GT-000012,DISPUTE_NOT_DEDUCTED,Dispute,DSP-2026-000033,"PAYOUT-2026-000179,SELL-000014",DISPUTE_DEDUCTED,DISPUTE_DEDUCTION_OMITTED,"Buyer won dispute, but dispute deduction was not clawed back in payout."
+GT-000013,PAYOUT_TOTAL_MISMATCH,Payout,PAYOUT-2026-000210,SELL-000017,33052,33053,Payout total_cents (33053) does not match sum of child lines (33052).
+GT-000014,PAYOUT_TOTAL_MISMATCH,Payout,PAYOUT-2026-000010,SELL-000017,11826,11825,Payout total_cents (11825) does not match sum of child lines (11826).
+GT-000015,PAYOUT_TOTAL_MISMATCH,Payout,PAYOUT-2026-000341,SELL-000017,9910,9960,Payout total_cents (9960) does not match sum of child lines (9910).

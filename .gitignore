@@ -1,0 +1,20 @@
+# generated data (the committed example lives in sample_output/)
+/output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# secrets
+.env
+*.key
+
+# editor and OS
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
+*.log
+*.tmp

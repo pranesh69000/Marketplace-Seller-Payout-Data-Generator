@@ -1,0 +1,10 @@
+[
+  {"rule_id": "RULE-0001", "rule_type": "STANDARD", "category": "ELECTRONICS", "rate_bps": 800, "priority": 10, "effective_from": "2025-01-01", "effective_to": "2026-06-30"},
+  {"rule_id": "RULE-0002", "rule_type": "STANDARD", "category": "ELECTRONICS", "rate_bps": 950, "priority": 10, "effective_from": "2026-07-01", "effective_to": null},
+  {"rule_id": "RULE-0003", "rule_type": "STANDARD", "category": "APPAREL", "rate_bps": 1200, "priority": 10, "effective_from": "2025-01-01", "effective_to": null},
+  {"rule_id": "RULE-0004", "rule_type": "STANDARD", "category": "HOME_KITCHEN", "rate_bps": 1000, "priority": 10, "effective_from": "2025-01-01", "effective_to": null},
+  {"rule_id": "RULE-0005", "rule_type": "STANDARD", "category": "BEAUTY", "rate_bps": 1100, "priority": 10, "effective_from": "2025-01-01", "effective_to": null},
+  {"rule_id": "RULE-0006", "rule_type": "STANDARD", "category": "SPORTS", "rate_bps": 900, "priority": 10, "effective_from": "2025-01-01", "effective_to": null},
+  {"rule_id": "RULE-0007", "rule_type": "STANDARD", "category": "BOOKS", "rate_bps": 600, "priority": 10, "effective_from": "2025-01-01", "effective_to": null},
+  {"rule_id": "RULE-0008", "rule_type": "NEW_SELLER_PROMO", "category": "ALL", "rate_bps": 500, "priority": 50, "effective_from": "2026-01-01", "effective_to": null}
+]
